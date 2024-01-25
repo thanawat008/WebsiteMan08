@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*----------------------start Header--------------------------------*/
+header {
+    background-color: #BCEFEC;
+}
+
+nav{
+    color: #000000;
+    display: flex;
+    width: 1100px;
+    height: 48px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: #25E5DA; */
+}
+
+.logo{
+    /* display: flex; */
+    text-transform: uppercase;
+    font-size: 24px;
+    align-items: center;
+    
+}
+
+.menu{
+    display: flex;
+    font-size: 18px;
+    
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* ------------------------Hero Section--------------------------------------------------- */
+
+.hero{
+    /* background-color: cadetblue; */
+
+    margin: auto;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-text-box{
+    /* margin: auto; */
+}
+
+.hero-button{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.hero-bt-getStarted{
+    background-color: darkcyan;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.hero-bt-watch{
+    display: flex;
+    align-items: center;
+}
+
+.hero-image{
+    align-items: center;
+    display: flex;
+}
+.pricingmain{
+    background-color: #FA6CFE;
+    height: 600px;
+    }
+    
+    .pricing{
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .box{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 1100px;
+    }
+    .card1{
+        border-radius: 5px;
+        background-color: white;
+        width: 320px;
+        height: 400px;
+        box-shadow: 0 10px 10px rgba(0,0,0,.5);
+         
+    }
+
+    .boxp{
+        align-items: center;
+        margin: 40PX;
+        text-align: left;
+        color: rgb(16, 16, 150);
+        line-height: 50px;
+        
+    }
+
+    .dollar{
+        margin: 20PX;
+        text-align: left;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .freeplan{
+        text-align: left;  
+        margin: 20px; 
+        line-height: 1px; 
+        font-size: 14px;
+    }.pricingmain{
+        background-color: #90F9F3;
+        height: 600px;
+    }
+    
+    .pricing{
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .boxp{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 1100px;
+    }
+    .card1{
+        border-radius: 5px;
+        background-color: white;
+        width: 320px;
+        height: 400px;
+        box-shadow: 0 10px 10px rgba(0,0,0,.5);
+         
+    }
+
+    .boxp{
+        align-items: center;
+        margin: 40PX;
+        text-align: left;
+        color: rgb(16, 16, 150);
+        line-height: 50px;
+        
+    }
+
+    .dollar{
+        margin: 20PX;
+        text-align: left;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .freeplan{
+        text-align: left;  
+        margin: 20px; 
+        line-height: 1px; 
+        font-size: 14px;
+    }
+    .text-h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 40px;
+        text-transform: uppercase;
+    }
+    .text-param{
+        color: #000000;
+        text-align: center;
+    }
+
+    /* ----------------------------Section Member------------------- */
+
+    .members{
+        background-color: #BCEFEC;
+        padding: 40px 0px;
+    }
+    .members-box{
+        width: 1000px;
+        margin: auto;
+
+        background-color: #fafafa;
+
+         padding: 1px 40px 40px;
+         box-shadow: 0px 0px 5px 5px #888888;
+         border-radius: 5px; 
+    }
+    table {
+        border: 1px solid red;
+        border-collapse: collapse;
+        width: 80%;
+        
+        margin: auto;
+    }
+    th, td {
+        border: 1px solid red;
+
+
+    }
+    th {
+
+    }
+    td {
+
+    }
