@@ -1,0 +1,17 @@
+.button {
+    color: #ffffff;
+    background-color: darkred;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 20px 0px;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.text-uppercase{
+    text-transform: uppercase;
+    color: rgb(14, 120, 48);
+}
